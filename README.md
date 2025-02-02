@@ -15,7 +15,5 @@ This project is a front-end clone of the Zomato website, created using only HTML
   <li>Media Queries – Ensuring a fully responsive experience.</li>
   <li>This project demonstrates my ability to create professional and visually appealing web pages using pure HTML and CSS.</li></ul>
 
-🚀 Live Demo: []
-📌 GitHub Repo: []
-
-Let me know if you want any tweaks! 🚀
+🚀 Live Demo: [https://zomatobysharuk.netlify.app/]
+📌 GitHub Repo: [https://github.com/mohammedsharukhh/Zomato-Project-Cloned-]
