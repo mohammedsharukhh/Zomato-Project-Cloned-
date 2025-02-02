@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assests/zomato_logo.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta Developed by Sharukh {Bytehyper}>
+    <title>Zomato</title>
+  </head>
+  <body>
+    <!--Background image cantainer-->
+    <div id="background_parent">
+      <div id="Background_image_cantainer"></div>
+      <!-- Navigation Bar -->
+      <div id="get_app_text">
+        <img src="./assests/get_app.png" id="app_image" />Get the App
+      </div>
+      <nav id="navigation">
+        <ul id="navigation_list_items">
+          <li class="navigation_bar_text">Investor Relations</li>
+          <li class="navigation_bar_text">Add Restaurant</li>
+          <li class="navigation_bar_text">Log In</li>
+          <li class="navigation_bar_text">Sign Up</li>
+        </ul>
+      </nav>
+
+      <!-- Main Content Section -->
+      <div id="main_name_parent">
+        <img
+          src="./assests/main_name.png"
+          class="main_name_child"
+          alt="Zomato Logo"
+        />
+        <p class="Bengaluru">Discover the best food & drinks in Bengaluru</p>
+
+        <!-- Search Section -->
+        <form id="search_section">
+          <div class="search_container">
+            <label for="location"
+              ><img
+                src="./assests/placeholder.png"
+                class="map_icon"
+                alt="Location Icon"
+            /></label>
+            <select id="location" name="location">
+              <option value="Bengaluru">Bengaluru</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Chitradurga">Chitradurga</option>
+              <option value="Tumkur">Tumkur</option>
+            </select>
+          </div>
+          <div class="search_container2">
+            <label for="search_input"
+              ><img
+                src="./assests/search.png"
+                class="search_image"
+                alt="Search Icon"
+            /></label>
+            <input
+              type="search"
+              id="search_input"
+              placeholder="Search for restaurants, cuisine, or a dish"
+              autofocus
+              class="placeholder"
+            />
+          </div>
+        </form>
+      </div>
+
+      <!-- Image Gallery Section -->
+      <div id="content_wraper"></div>
+      <div id="image_parent_of_section2">
+        <div class="inside_container">
+          <img src="./assests/food.jpeg" class="img" alt="Food Image" />
+          <p class="head_of_decription">Order Online</p>
+          <p class="discription">Stay home and order to you doorstep</p>
+        </div>
+        <div class="inside_container">
+          <img
+            src="./assests/restauorent.jpeg"
+            class="img"
+            alt="Restaurant Image"
+          />
+          <p class="head_of_decription">Dining</p>
+          <p class="discription">View the city's favourite dinning venues</p>
+        </div>
+        <div class="inside_container">
+          <img src="./assests/show.png" class="img" alt="Nightlife Image" />
+          <p class="head_of_decription">Live Events</p>
+          <p class="discription">Discover india's best events & concerts</p>
+        </div>
+      </div>
+      <!---Collections-->
+      <div id="collections">
+        <div class="collection">
+          <h4 class="headline">Collections</h4>
+          <pre
+            class="pretag"
+          >Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends <a href="./" class="img_parent">          All collections in Bengaluru</a><img src="./assests/arrowhead.png" class="collection_images"</pre>
+        </div>
+      </div>
+      <div id="collection_images">
+        <section class="collection_child_images">
+          <div class="semisuperchild">
+            <img src="./assests/collection1.avif" class="superchild" />
+          </div>
+          <div class="parent_of_text">
+            <div class="text_desciption">
+              Top Trending Sports
+              <p class="image_description">
+                30 Places<img
+                  src="./assests/Black arrow.png"
+                  class="black_arrow"
+                />
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="collection_child_images">
+          <div class="semisuperchild">
+            <img src="./assests/collection2.avif" class="superchild" />
+          </div>
+          <div class="parent_of_text">
+            <div class="text_desciption">
+              Best Rooftop Places
+              <p class="image_description">
+                48 Places<img
+                  src="./assests/Black arrow.png"
+                  class="black_arrow"
+                />
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="collection_child_images">
+          <div class="semisuperchild">
+            <img src="./assests/collection3.avif" class="superchild" />
+          </div>
+          <div class="parent_of_text">
+            <div class="text_desciption">
+              Newly Opened Places
+              <p class="image_description">
+                29 Places<img
+                  src="./assests/Black arrow.png"
+                  class="black_arrow"
+                />
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="collection_child_images">
+          <div class="semisuperchild">
+            <img src="./assests/collection4.avif" class="superchild" />
+          </div>
+          <div class="parent_of_text">
+            <div class="text_desciption">
+              it's a Date
+              <p class="image_description">
+                29 Places<img
+                  src="./assests/Black arrow.png"
+                  class="black_arrow"
+                />
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="loaction_container">
+        <div class="locations">
+          <div class="location_head">
+            Popular localities in and around <b>Bengaluru</b>
+          </div>
+          <div id="city_conatiner">
+            <div class="city">
+              indiranagar
+              <p class="ptag">624 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              marathahalli
+              <p class="ptag">1075 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              whitefield
+              <p class="ptag">1110 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              koramangala
+              <p class="ptag">330 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              HSR
+              <p class="ptag">1038 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              jayanagar
+              <p class="ptag">666 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              jp-nagar
+              <p class="ptag">793 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="city">
+              sarjapur-road
+              <p class="ptag">843 Places</p>
+              <img src="./assests/right-arrow.png" class="right-arrow" />
+            </div>
+            <div class="seemore">
+              <div class="seeless">See More</div>
+              <img src="./assests/down arrow.png" class="down_arrow"
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="parent_of_form">
+        <div id="child_of_form">
+          <div class="box1">
+            <img src="./assests/phoneimage.avif" class="box1_image" />
+          </div>
+          <div class="box2">
+            <div class="get">Get the Zomato app</div>
+            <p class="we">
+              We will send you a link, open it on your phone to download the app
+            </p>
+            <form id="email_form">
+              <label id="email">
+                <input type="radio" id="sha" name="radiobotton" />
+                <span class="subsha">Email</span>
+                <input type="radio" id="ruk" name="radiobotton" />
+                <span class="subsha">Phone</span>
+              </label>
+              <label for="emailbox" id="parent_of_input_box">
+                <input
+                  type="email"
+                  id="emailbox"
+                  placeholder="Email"
+                  autocomplete="on"
+                  name="email"
+                />
+                <button id="share_me" type="submit">share app link</button>
+              </label>
+              <section id="External_links">
+                <p id="External_links_description">Download app from</p>
+              </section>
+              <section id="external_image">
+                <a href="./" class="link_to_site"
+                  ><img
+                    src="./assests/gOOGLE pLAY.webp"
+                    alt="Google Playstore"
+                    class="store"
+                /></a>
+                <a href="./" class="link_to_site"
+                  ><img
+                    src="./assests/APPLE store.webp"
+                    alt="Apple Store"
+                    class="store"
+                /></a>
+              </section>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="parent_of_Description">
+        <section id="child_of_Description">
+          <dl id="parent_of_sharuk">
+            <dt class="Description_list_head">Explore options near me</dt>
+            <dd class="Description_list_head_child">
+              Popular Cuisines Near Me<img
+                src="./assests/down arrow.png"
+                class="down_arrow_off_Description"
+              />
+            </dd>
+            <dd class="Description_list_head_child">
+              Popular Restaurant Types Near me<img
+                src="./assests/down arrow.png"
+                class="down_arrow_off_Description"
+              />
+            </dd>
+            <dd class="Description_list_head_child">
+              Top Restaurant Chains<img
+                src="./assests/down arrow.png"
+                class="down_arrow_off_Description"
+              />
+            </dd>
+            <dd class="Description_list_head_child">
+              Cities We Deliver To<img
+                src="./assests/down arrow.png"
+                class="down_arrow_off_Description"
+              />
+            </dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <section id="footer_elements_sharuk">
+        <section id="footer_Container">
+          <section id="footer_Container_parent">
+            <img src="./assests/footer_logo.avif" class="footer_logh" />
+            <div id="footer_container_child">
+              <div class="for_india1">
+                <img src="./assests/indian_flag_sharuk.png" class="indian1" />
+                <select id="zaomato_boss1">
+                  <option class="Zomato_sharuk_location">India</option>
+                  <option class="Zomato_sharuk_location">UAE</option>
+                </select>
+              </div>
+              <div class="for_india2">
+                <img src="./assests/earth-globe.png" class="indian2" />
+                <select id="zaomato_boss2">
+                  <option class="city_name">English</option>
+                  <option class="city_name">Türkçe></option>
+                  <option class="city_name">हिंदी></option>
+                  <option class="city_name">Português (BR)</option>
+                  <option class="city_name">Indonesian</option>
+                  <option class="city_name">Português (PT)</option>
+                  <option class="city_name">Español</option>
+                  <option class="city_name">Čeština</option>
+                  <option class="city_name">Slovenčina</option>
+                  <option class="city_name">Polish</option>
+                  <option class="city_name">Italian</option>
+                  <option class="city_name">Vietnamese</option>
+                </select>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section id="footer_box_container_sharuk">
+        <div class="Footer_main_containers">
+          <div class="Footer_inside_container">About Zomato</div>
+          <div class="Footer_inside_conatiner_of_container">
+            <ul type="none">
+              <li>Who We Are</li>
+              <li>Blog</li>
+              <li>Work With Us</li>
+              <li>Investor Relations</li>
+              <li>Report Fraud</li>
+              <li>Press Kit</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Footer_main_containers">
+          <div class="Footer_inside_container">Zomaverse</div>
+          <div class="Footer_inside_conatiner_of_container">
+            <ul type="none">
+              <li>Zomato</li>
+              <li>Blinkit</li>
+              <li>District</li>
+              <li>Feeding India</li>
+              <li>Hyperpure</li>
+              <li>Zomato Live</li>
+              <li>Zomaland</li>
+              <li>Weather Union</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Footer_main_containers">
+          <div class="Footer_inside_container">For Restaurants</div>
+          <div class="Footer_inside_conatiner_of_container">
+            <ul type="none">
+              <li>Partner With Us</li>
+              <li>Apps For You</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Footer_main_containers">
+          <div class="Footer_inside_container">Learn More</div>
+          <div class="Footer_inside_conatiner_of_container">
+            <ul type="none">
+              <li>Privacy</li>
+              <li>Security</li>
+              <li>Terms</li>
+            </ul>
+          </div>
+        </div>
+        <div class="Footer_main_containers">
+          <div class="Footer_inside_container">Social links</div>
+          <div class="Footer_inside_conatiner_of_containers">
+            <ul type="none">
+              <div id="footer_logo_container">
+                <img src="./assests/linkedin.png" class="logo_of_footer" />
+                <img src="./assests/instagram.png" class="logo_of_footer" />
+                <img src="./assests/twitter.png" class="logo_of_footer" />
+                <img src="./assests/youtube.png" class="logo_of_footer" />
+                <img src="./assests/letter-f.png" class="logo_of_footer" />
+              </div>
+              <section id="external_images">
+                <a href="./" class="link_to_site"
+                  ><img
+                    src="./assests/gOOGLE pLAY.webp"
+                    alt="Google Playstore"
+                    class="stores"
+                /></a>
+                <a href="./" class="link_to_site"
+                  ><img
+                    src="./assests/APPLE store.webp"
+                    alt="Apple Store"
+                    class="stores"
+                /></a>
+              </section>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="i_made_it">
+        <div id="conatiner_of_sharukh">
+          <hr class="hr" />
+          <p class="its_me_bytehyper_sharuk">
+            By continuing past this page, you agree to our Terms of Service,
+            Cookie Policy, Privacy Policy and Content Policies. All trademarks
+            are properties of their respective owners. 2008-2025 © Sharuk™ Ltd.
+            All rights reserved.
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
